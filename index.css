@@ -1,0 +1,45 @@
+.head {
+    width: 30px;
+    height: 30px;
+    background-color: black;
+    border-radius: 50px;
+}
+
+.body {
+    width: 40px;
+    height: 90px;
+    background-color: black;
+}
+
+.head-setter {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.body-setter {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.left-arrow, .right-arrow {
+    color: red;
+}
+
+.left-arrow:hover, .right-arrow:hover {
+    cursor: pointer;
+    font-weight: 900;
+}
+
+.name-setter {
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+}
+
+html {
+    font-family: sans-serif;
+}
